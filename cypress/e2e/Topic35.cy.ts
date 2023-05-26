@@ -11,9 +11,14 @@
 
     3. Click on Source Control Icon on left side bar
 
-    4. Click on Initialize Repository to treat current project folder as git enabled
-        (Note: When prompted do not select node_modules by clicking no)
-
+    4. Click on Publish on GitHub
+        4.1 You will be prompted to allow to open GitHub Page. Allow / click yes.
+        4.2 Login to GitHub in the invoked browser and authorize VisualCode to use github
+        4.3 Wait for acceptance and updates in VSCode. If not responding then try again
+        4.4 Set User name and email id with following commands in terminal
+                    git config --global user.name "Trainer"
+                    git config --global user.email trainer@training.com
+        4.5 Enter the commit message and click on commit
             
 
 */
