@@ -1,0 +1,10 @@
+{
+    "cypress/e2e/Demo1.cy.ts": {
+        "time": 1000,
+        "weight": 50
+    },
+    "cypress/e2e/Demo2.cy.ts": {
+        "time": 2000,
+        "weight":50
+    }
+}
