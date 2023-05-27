@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.091" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-27T04:27:07" tests="0" file="cypress\e2e\Topic22.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Topic22_TestSuite" timestamp="2023-05-27T04:27:08" tests="1" time="33.893" failures="1">
+    <testcase name="Topic22_TestSuite BlazeDemo_ClientSide_UI_PerformanceTesting" time="0.000" classname="BlazeDemo_ClientSide_UI_PerformanceTesting">
+      <failure message="`cy.task(&apos;lighthouse&apos;)` failed with the following error:
+
+&gt; Cannot read properties of undefined (reading &apos;numericValue&apos;)
+
+https://on.cypress.io/api/task" type="CypressError"><![CDATA[CypressError: `cy.task('lighthouse')` failed with the following error:
+
+> Cannot read properties of undefined (reading 'numericValue')
+
+https://on.cypress.io/api/task
+    at <unknown> (https://blazedemo.com/__cypress/runner/cypress_runner.js:150983:78)
+    at tryCatcher (https://blazedemo.com/__cypress/runner/cypress_runner.js:18744:23)
+    at Promise._settlePromiseFromHandler (https://blazedemo.com/__cypress/runner/cypress_runner.js:16679:31)
+    at Promise._settlePromise (https://blazedemo.com/__cypress/runner/cypress_runner.js:16736:18)
+    at Promise._settlePromise0 (https://blazedemo.com/__cypress/runner/cypress_runner.js:16781:10)
+    at Promise._settlePromises (https://blazedemo.com/__cypress/runner/cypress_runner.js:16857:18)
+    at _drainQueueStep (https://blazedemo.com/__cypress/runner/cypress_runner.js:13451:12)
+    at _drainQueue (https://blazedemo.com/__cypress/runner/cypress_runner.js:13444:9)
+    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://blazedemo.com/__cypress/runner/cypress_runner.js:13460:5)
+    at Async.drainQueues (https://blazedemo.com/__cypress/runner/cypress_runner.js:13330:14)
+From Your Spec Code:
+    at Context.eval (https://blazedemo.com/__cypress/tests?p=cypress\support\e2e.ts:49:21)
+
+From Node.js Internals:
+  TypeError: Cannot read properties of undefined (reading 'numericValue')
+      at <unknown> (C:\Work\AdvCypress\node_modules\@cypress-audit\lighthouse\src\helpers.js:48:22)
+  at Array.forEach (<anonymous>)
+      at compareWithThresholds (C:\Work\AdvCypress\node_modules\@cypress-audit\lighthouse\src\helpers.js:40:27)
+      at <unknown> (C:\Work\AdvCypress\node_modules\@cypress-audit\lighthouse\src\task.js:32:16)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

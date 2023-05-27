@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.092" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-05-27T04:33:54" tests="0" file="cypress\e2e\Topic22.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Topic22_TestSuite" timestamp="2023-05-27T04:33:54" tests="1" time="30.020" failures="1">
+    <testcase name="Topic22_TestSuite BlazeDemo_ClientSide_UI_PerformanceTesting" time="0.000" classname="BlazeDemo_ClientSide_UI_PerformanceTesting">
+      <failure message="cy.lighthouse - A threshold has been crossed.
+
+speed-index record is 5474.3425900000075 and is over the 50 threshold" type="Error"><![CDATA[Error: cy.lighthouse - A threshold has been crossed.
+
+speed-index record is 5474.3425900000075 and is over the 50 threshold
+    at Context.eval (https://blazedemo.com/__cypress/tests?p=cypress\support\e2e.ts:72:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

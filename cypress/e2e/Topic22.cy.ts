@@ -1,4 +1,39 @@
-var tasktimeout:any
+
+/* *****************************   
+    Performamce Testing of Web Page @ client pc       
+     
+    Url:  https://mfrachet.github.io/cypress-audit/
+
+
+
+    Configuration Steps:
+    ---------------------------------------
+    1. Install the following packages
+            ==> npm install --save-dev @cypress-audit/lighthouse
+
+    2. Add the following to cypress.config.js/ts
+
+        const { lighthouse, prepareAudit } = require("@cypress-audit/lighthouse");
+
+        setupNodeEvents(on, config) {
+            on("before:browser:launch", (browser = {}, launchOptions) => {
+                prepareAudit(launchOptions);
+                });
+
+            on("task", {
+                lighthouse: lighthouse(),
+            });
+        },
+
+    3. Add the following to support/command.js|ts
+            ==>  import "@cypress-audit/lighthouse/commands";
+           
+
+*/
+
+
+
+var tasktimeout
 
 describe('Topic22_TestSuite', () => {
 
@@ -39,3 +74,8 @@ it('BlazeDemo_ClientSide_UI_PerformanceTesting', () => {
 })
 
 })
+
+
+
+
+

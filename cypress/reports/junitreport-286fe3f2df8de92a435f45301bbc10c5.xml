@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.247" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-27T04:32:37" tests="0" file="cypress\e2e\Topic22.cy.ts" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Topic22_TestSuite" timestamp="2023-05-27T04:32:37" tests="1" time="30.154" failures="0">
+    <testcase name="Topic22_TestSuite BlazeDemo_ClientSide_UI_PerformanceTesting" time="25.429" classname="BlazeDemo_ClientSide_UI_PerformanceTesting">
+    </testcase>
+  </testsuite>
+</testsuites>
