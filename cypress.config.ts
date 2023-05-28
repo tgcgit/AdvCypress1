@@ -52,7 +52,8 @@ export default defineConfig({
 
   e2e: {
 
-    specPattern: ["cypress/e2e/*.cy.ts", "cypress/e2e/features/*.feature"],
+    specPattern: ["cypress/e2e/features/*.feature","cypress/e2e/*.cy.ts"],
+    
     pageLoadTimeout: 150000,
     taskTimeout: 80000,
     defaultCommandTimeout: 30000,

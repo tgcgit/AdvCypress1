@@ -33,7 +33,7 @@
 
 
 
-var tasktimeout
+var tasktimeout:any
 
 describe('Topic22_TestSuite', () => {
 
